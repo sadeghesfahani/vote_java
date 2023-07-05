@@ -1,9 +1,10 @@
 package com.sadeghesfahani.sina.vote.user.repository;
 
+import com.sadeghesfahani.sina.vote.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<UserRepository, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
 }
